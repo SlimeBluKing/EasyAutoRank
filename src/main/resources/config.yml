@@ -1,0 +1,31 @@
+update-every-minutes: 1
+
+first-rank: "alpha"
+
+ranks:
+  "mayor":
+    after-hours: 12
+  "captain":
+    after-hours: 24
+  "specialist":
+    after-hours: 36
+
+reset-ranks:
+  - "mayor"
+  - "captain"
+  - "specialist"
+
+rank-contexts:
+  "server-factions":
+    key: "server"
+    value: "factions"
+
+msg:
+  successfully-reloaded: "&aEasyAutoRank ricaricato correttamente"
+  ranked-up: "&aSei stato promosso a {rank}"
+  check-self: "&aSei stato online per {time}"
+  check-other: "&a{player} è stato online per {time}"
+  only-player: "&aQuesto comando può essere eseguito solo da un player"
+  wrong-usage: "&cUtilizza /ar check [player]"
+  not-online: "&c{player} non è online"
+

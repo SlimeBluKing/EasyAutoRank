@@ -1,0 +1,19 @@
+name: EasyAutoRank
+version: '${project.version}'
+main: it.easymc.easyautorank.EasyAutoRank
+depend:
+  - LuckPerms
+commands:
+  ar:
+    description: Manage autorank
+permissions:
+  easyautorank.admin:
+    description: bypass rank upgrade
+  easyautorank.upgrade:
+    description: can upgrade
+  easyautorank.check:
+    description: can view his time
+  easyautorank.other:
+    description: can view other times
+
+
