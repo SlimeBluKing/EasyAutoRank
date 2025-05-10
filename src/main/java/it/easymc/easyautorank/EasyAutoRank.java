@@ -39,8 +39,7 @@ public final class EasyAutoRank extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        loadConfig();
-        saveConfig();
+        saveDefaultConfig();
         start();
     }
 
@@ -60,11 +59,6 @@ public final class EasyAutoRank extends JavaPlugin {
         initialTimedPlayerHashMap();
 
         getTasks();
-    }
-
-    private void loadConfig(){
-        getConfig().options().copyHeader(true);
-        getConfig().options().copyDefaults(true);
     }
 
     public void getCommands(){

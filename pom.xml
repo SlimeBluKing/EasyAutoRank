@@ -6,7 +6,7 @@
 
     <groupId>it.easymc</groupId>
     <artifactId>EasyAutoRank</artifactId>
-    <version>1.0</version>
+    <version>1.0-hotfix</version>
     <packaging>jar</packaging>
 
     <name>EasyAutoRank</name>
